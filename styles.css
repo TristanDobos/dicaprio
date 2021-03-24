@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(to right, #a5c4ef, #0848a1);
+}
+
+.container-navbar {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  width: 100%;
+}
+
+nav {
+  background-color: #a5c4ef;
+}
+
+.profile-container {
+  display: flex;
+
+  justify-content: center;
+}
+
+#photo {
+  height: 25rem;
+  width: auto;
+  border-radius: 15rem;
+  border: 0.5rem solid #ffffff;
+}
+.space {
+  width: 100%;
+  height: 3rem;
+}
+
+.grid-container-1 {
+  display: grid;
+
+  grid-template-columns: 15rem 15rem;
+  grid-template-rows: 10rem;
+}
+.one-span {
+  grid-column: span 1;
+  text-align: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.grid-container-2 {
+  display: grid;
+  height: 40rem;
+  grid-template-columns: 15rem 30rem;
+  grid-template-rows: 10rem 10rem 10rem;
+}
+
+.video {
+    margin-top: 2rem;
+}
